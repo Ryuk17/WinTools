@@ -1,2 +1,8 @@
-# WinTools
-python scripts in windows
+# WinTools 
+## rename.py
+修复Windows系统下，原始文本使用 UTF-8 编码，但在解码时错误地使用了 Latin-1 (ISO-8859-1) 或其他单字节编码所致的文件名乱码。本程序会递归对文件夹中所有子文件夹和文件进行重命名。  
+
+
+比如：å¯¹æ¯æµè¯ --> 比较测试
+
+
